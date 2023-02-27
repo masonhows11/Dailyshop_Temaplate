@@ -265,13 +265,29 @@ body {
 }
 .footer-top{
     height: 200px;
+    background-color: #F8F9FA;
 }
 
 .footer-down{
-    height: 60px;
+  
+    background-color: #F8F9FA;
 }
 
+.footer-access-link,
+.footer-social-link div{
+    margin:auto;
+}
+.footer-social-link .fa-twitter ,
+.footer-social-link .fa-facebook ,
+.footer-social-link  .fa-instagram{
+  color: #000000;
+  font-size: 1.7rem;
+}
 
+.footer-access-link a{
+    text-decoration: none;
+    color: #000000;
+}
 /***** side navigation category *****/
 
 .side-nav {
@@ -437,6 +453,7 @@ body {
 }
 
 @media (max-width:576.98px) {
+
     .side-nav-btn {
         display: flex;
         justify-content: space-between;
@@ -452,6 +469,9 @@ body {
         display: flex;
     }
 
+   
+
+
 }
 
 @media screen and (max-width:300px) {
@@ -460,6 +480,14 @@ body {
     .sub-header-responsive .link-sing-up {
         font-size: 0.9rem;
         padding: 15px 15px;
+    }
+    .footer-access-link div{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .footer-access-link a{
+        margin: 5px 0;
     }
 }
 
